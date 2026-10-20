@@ -1,0 +1,24 @@
+file_gen:generate_document(query="""Create a manifest.json file for the CivicBridge PWA application:
+
+{
+  "name": "CivicBridge – Community Access Navigator",
+  "short_name": "CivicBridge",
+  "description": "Voice-enabled, low-bandwidth navigator for government schemes, skills, and public resources.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7fa",
+  "theme_color": "#0b2a4a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+""")
