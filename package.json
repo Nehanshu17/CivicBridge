@@ -1,0 +1,28 @@
+file_gen:generate_document(query="""Create a package.json file for the CivicBridge project:
+
+{
+  "name": "civicbridge",
+  "version": "1.0.0",
+  "description": "Voice-enabled, low-bandwidth navigator for government schemes, skills, and public resources.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "civicbridge",
+    "pwa",
+    "government-schemes",
+    "accessibility"
+  ],
+  "author": "Nehanshu17",
+  "license": "MIT"
+}
+""")
